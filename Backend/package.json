@@ -1,7 +1,7 @@
 {
-  "name": "backend",
+  "name": "Time Management App",
   "version": "1.0.0",
-  "description": "",
+  "description": "Required backend files for the 'Time Management App'",
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
