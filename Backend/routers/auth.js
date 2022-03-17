@@ -20,6 +20,7 @@ router.post("/signup", async (req, res) => {
     const user = new Auth({
         name: req.body.name,
         username: req.body.username,
+        email: req.body.email,
         password: req.body.password
     })
     console.log("Username: " + user.username + ", Password: " + user.password)
