@@ -72,11 +72,12 @@ body {
   margin-left: 30px;
 }
 .box-form .right {
-  margin-bottom: 8%;
+  margin-bottom: 7%;
   margin-right: auto;
-  margin-left: auto;
+  margin-left: 13%;
   padding: 1%;
   padding-top: 0%;
+  padding-right: 1%;
   overflow: hidden;
 }
 @media (max-width: 980px) {
@@ -85,21 +86,24 @@ body {
   }
 }
 .box-form .right h5 {
+  padding: auto;
   font-size: 6vmax;
   line-height: 0;
 }
 .box-form .right p {
+  padding-left: 0;
   font-size: 14px;
   color: #B0B3B9;
 }
 .box-form .right .inputs {
   overflow: hidden;
+  margin-top: 5%;
   margin-bottom: 30;
 }
 .box-form .right input {
   width: 100%;
   padding: 2%;
-  margin-top: 4%;
+  margin-top: 1%;
   font-size: 16px;
   border: none;
   outline: none;
@@ -108,6 +112,7 @@ body {
 .box-form .right .remember-me--forget-password {
   display: flex;
   justify-content: space-between;
+  padding-top: 3%;
   align-items: center;
 }
 .box-form .right .remember-me--forget-password input {
@@ -115,11 +120,11 @@ body {
   margin-right: 1%;
   width: auto;
 }
-.box-form .right button {
+.box-form .right .buttonx{
   float: right;
   color: #fff;
   font-size: 16px;
-  padding: 12px 35px;
+  padding: 10% 20%;
   border-radius: 50px;
   display: inline-block;
   border: 0;
@@ -170,7 +175,3 @@ label input[type="checkbox"] {
   display: none;
 }
 
-.button {
-  position: absolute;
-  left: 71.5%;
-}
