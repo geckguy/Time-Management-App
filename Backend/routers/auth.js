@@ -12,6 +12,10 @@ router.get("/users", async (req, res) => {
         console.log(err);
     }
 })
+
+router.get("/signup", async (req, res) => {
+    // send .html file
+})
 router.post("/signup", async (req, res) => {
     const user = new Auth({
         name: req.body.name,
@@ -27,6 +31,10 @@ router.post("/signup", async (req, res) => {
     catch(err) {
         console.log(err)
     }
+})
+
+router.get("/login", async (req, res) => {
+    // send .html file
 })
 router.post("/login", async (req, res) => {
     try {
