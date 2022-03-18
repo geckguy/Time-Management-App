@@ -1,3 +1,4 @@
+const path = require("path")
 const express = require("express")
 const authRouter = require("./routers/auth")
 const mongoose = require("mongoose")
@@ -23,6 +24,7 @@ const app = express()
 
 app.use(express.urlencoded({ extended: false }))
 app.use(express.json())
+app.use("/auth", express.static("app/frontend/styles"))
 app.use("/auth", authRouter)
 
 app.listen(5000, () => {

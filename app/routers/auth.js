@@ -1,3 +1,4 @@
+const path = require("path")
 const express = require("express")
 const router = express.Router()
 const Auth = require("../schema and models/auth")
@@ -35,7 +36,7 @@ router.post("/signup", async (req, res) => {
 })
 
 router.get("/login", async (req, res) => {
-    // send .html file
+    res.sendFile("/SIH'22/app/frontend/login.html")
 })
 router.post("/login", async (req, res) => {
     try {
