@@ -1,4 +1,3 @@
-const path = require("path")
 const express = require("express")
 const authRouter = require("./routers/auth")
 const mongoose = require("mongoose")
