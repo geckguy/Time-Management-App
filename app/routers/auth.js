@@ -15,7 +15,7 @@ router.get("/users", async (req, res) => {
 })
 
 router.get("/signup", async (req, res) => {
-    // send .html file
+    res.sendFile("/SIH'22/app/frontend/signup.html")
 })
 router.post("/signup", async (req, res) => {
     const user = new Auth({

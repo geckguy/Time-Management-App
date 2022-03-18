@@ -24,7 +24,7 @@ const app = express()
 
 app.use(express.urlencoded({ extended: false }))
 app.use(express.json())
-app.use("/auth", express.static("app/frontend/styles"))
+app.use("/app/frontend", express.static(__dirname + "/frontend"))
 app.use("/auth", authRouter)
 
 app.listen(5000, () => {
