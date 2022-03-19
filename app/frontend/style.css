@@ -1,9 +1,12 @@
 body {
     font-family: 'Lato', sans-serif;
+    background-image: linear-gradient(135deg, #FAB2FF 10%, #4dafff 100%);
+}
+h2 {
+  font-family: 'Lato', sans-serif;
 }
 
 .header-dark {
-    background-image: linear-gradient(135deg, #FAB2FF 10%, #4dafff 100%);
     background-image: url("https://img.freepik.com/free-vector/office-workplace-interior-with-computer-table_107791-1837.jpg?w=1800&t=st=1647678012~exp=1647678612~hmac=767075df84c90ac4c24265de8c1d58a9f155c02b8266ab831e02ba0b92f592ca");
     background-repeat: no-repeat;
     background-attachment: auto;
@@ -172,4 +175,99 @@ body {
   
   .header-dark .hero .embed-responsive iframe {
     background-color:#666;
+
   }
+
+.ct-featureBox h4 {
+  padding: 10px 0 5px;
+  color: #ffffff;
+  font-size: 2.2rem;
+  font-weight: 600;
+}
+.ct-featureBox p {
+  margin-bottom: 0;
+}
+.main-content {
+  padding: 40px 0;
+  background-image: url("https://www.solodev.com/assets/bg-02.jpg");
+  background-color: transparent;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  overflow: hidden;
+  min-height: 600px;
+}
+.main-content h2,
+.main-content h3 {
+  color: rgb(0, 0, 0);
+  font-size: 5.5rem;
+  text-align: center;
+}
+.main-content h2 {
+  font-family: 'Lato', sans-serif;
+  margin-bottom: 0;
+}
+.main-content h3 {
+  font-weight: 300;
+  padding-bottom: 40px;
+  margin-top: 0;
+}
+.main-content h3,
+.fa {
+  font-size: 3rem;
+}
+.ct-featureBox {
+  width: 100%;
+  background: rgb(3, 0, 0);
+  padding: 40px 55px;
+  margin: 15px 0;
+  min-height: 250px;
+  border-radius: 50px;
+  display: table;
+  text-align: center;
+  color: white;
+  -webkit-transition: background-color, 0.25s, ease-in-out;
+  transition: background-color, 0.25s, ease-in-out;
+}
+.ct-featureBox .inner {
+  display: table-cell;
+  width: 100%;
+  vertical-align: middle;
+}
+.ct-featureBox .image {
+  text-align: center;
+}
+.ct-featureBox .image img {
+  display: inline-block;
+}
+img, 
+figure {
+  max-width: 100%;
+}
+@media screen and (max-width: 991px) {
+  .ct-featureBox {
+    padding: 20px 55px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .main-content {
+    padding-right: 80px;
+    padding-left: 80px;
+  }
+  .ct-featureBox {
+    width: 100%;
+    min-height: 200px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .main-content {
+    padding-right: 40px;
+    padding-left: 40px;
+  }
+}
+@media screen and (max-width: 480px) {
+  .main-content {
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+}
