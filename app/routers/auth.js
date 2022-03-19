@@ -47,7 +47,7 @@ router.post("/login", async (req, res) => {
                 res.send("Success!")
             }
             else {
-                res.send("Wrong password")
+                res.sendFile("/SIH'22/app/frontend/login1.html")
             }
         })
             .clone()
