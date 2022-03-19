@@ -1,4 +1,3 @@
-const path = require("path")
 const express = require("express")
 const router = express.Router()
 const Auth = require("../schema and models/auth")
@@ -15,7 +14,7 @@ router.get("/users", async (req, res) => {
 })
 
 router.get("/signup", async (req, res) => {
-    // send .html file
+    res.sendFile("/SIH'22/app/frontend/signup.html")
 })
 router.post("/signup", async (req, res) => {
     const user = new Auth({
@@ -48,7 +47,7 @@ router.post("/login", async (req, res) => {
                 res.send("Success!")
             }
             else {
-                res.send("Wrong password")
+                res.sendFile("/SIH'22/app/frontend/login1.html")
             }
         })
             .clone()

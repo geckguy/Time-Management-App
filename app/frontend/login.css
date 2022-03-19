@@ -122,10 +122,10 @@ body {
 }
 .box-form .right .buttonx{
   position: relative;
-  left: 115%;
+  left: 101%;
   color: #ffffff;
   font-size: 16px;
-  padding: 10% 20%;
+  padding: 15% 30%;
   border-radius: 50px;
   display: inline-block;
   border: 0;
@@ -174,4 +174,10 @@ label span.text-checkbox {
 
 label input[type="checkbox"] {
   display: none;
+}
+
+.box-form .right .wrong {
+  color: red;
+  text-align: left;
+  margin: auto;
 }
